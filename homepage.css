@@ -1,0 +1,49 @@
+body {  
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-image: url('background.jpg');
+    background-attachment: fixed; 
+
+}
+
+.navbar {
+    padding: 1rem;
+    
+}
+/*
+.hero-content {
+    position: absolute;
+    top: 70%;
+    margin-left: 30%;
+    margin-bottom: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left, bottom;
+    text-decoration-color:black ;
+   
+    
+}*/
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #ff5e57;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #e04e48;
+}
+.text-white {
+    color:#ffffff !important;
+}
