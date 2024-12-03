@@ -33,11 +33,10 @@ header .hero1 {
 
 .project-card {
     background:-moz-radial-gradient(black, white);
-    border-radius: 50%;
-    box-shadow: 0 4px 6px rgb(65 117 248 / 84%);
+    box-shadow: 0 4px 6px rgb(60 0 0 / 84%);
     overflow: hidden;
-    width: 300px; /* Make width and height equal for a perfect circle */
-    height: 300px;
+    width: 400px; 
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +67,7 @@ header .hero1 {
     margin: 10px;
     display: inline-block;
     padding: 10px 15px;
-    background: #007BFF;
+    background: #600000;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -76,7 +75,7 @@ header .hero1 {
 }
 
 .project-card .btn:hover {
-    background: #0056b3;
+    background: rgb(210, 166, 166);
 }
 
 .project-card:hover {
@@ -117,11 +116,11 @@ section {
 }
 
 #about, #projects {
-    background-image: linear-gradient(to right, white, rgb(210, 166, 166));
+    background:white;
     margin: 20px 0;
 }
 #contact{
-        background-image: linear-gradient(to right, white, rgb(210, 166, 166));
+        background:white;
         margin: -20px 0;
     }
 
@@ -131,12 +130,21 @@ section {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #007BFF;
+    background: #600000;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: rgb(210, 166, 166);
 }
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }

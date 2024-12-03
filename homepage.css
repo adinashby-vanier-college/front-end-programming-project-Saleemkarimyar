@@ -47,3 +47,12 @@ body {
 .text-white {
     color:#ffffff !important;
 }
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .navbar {
+    padding: 1rem;
+  }
+  .hero1{
+    background-image: linear-gradient(to right, rgb(60, 0, 0), white);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  .service-card {
+    background-color: white;
+    margin: 1em;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .service-card h2 {
+    margin-top: 0;
+  }
+  
+  .service-card button {
+    background-color: rgb(60, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background-color: rgb(210, 166, 166);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

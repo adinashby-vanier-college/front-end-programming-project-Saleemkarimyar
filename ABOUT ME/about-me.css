@@ -48,4 +48,13 @@ body {
     color: #555555;
     line-height: 1.6;
   }
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
   
