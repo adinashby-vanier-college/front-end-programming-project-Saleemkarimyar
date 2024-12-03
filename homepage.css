@@ -4,12 +4,10 @@ body {
     background-repeat: no-repeat;
     background-image: url('background.jpg');
     background-attachment: fixed; 
-
 }
 
 .navbar {
     padding: 1rem;
-    
 }
 /*
 .hero-content {
@@ -20,9 +18,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: left, bottom;
     text-decoration-color:black ;
-   
-    
 }*/
+.hero-content{
+    margin-top: 380px;
+    margin-left: 150px;
+}
 
 .hero-content h1 {
     font-size: 3rem;
